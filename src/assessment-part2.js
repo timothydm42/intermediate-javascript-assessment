@@ -88,7 +88,6 @@ var boundToElephant = large.bind(elephant);
 function deathStar(capacity, crew) {
   return capacity.call(crew);
 }
-deathStar();
 
 
 
